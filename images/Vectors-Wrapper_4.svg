@@ -1,10 +1,10 @@
-<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_86_455)">
-<circle cx="12.5" cy="12.5" r="12.5" fill="#4B5A68"/>
+<svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_96_936)">
+<circle cx="25.5" cy="25" r="25" fill="#4B5A68"/>
 </g>
 <defs>
-<clipPath id="clip0_86_455">
-<rect width="25" height="25" fill="white"/>
+<clipPath id="clip0_96_936">
+<rect width="50" height="50" fill="white" transform="translate(0.5)"/>
 </clipPath>
 </defs>
 </svg>

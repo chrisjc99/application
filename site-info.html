@@ -1,11 +1,11 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
 <!--  Last Published: Wed May 31 2023 00:25:01 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="647690a796c6f2888f4aa2fc" data-wf-site="647690a796c6f2888f4aa300">
+<html data-wf-page="647690a796c6f2888f4aa2ff" data-wf-site="647690a796c6f2888f4aa300">
 <head>
   <meta charset="utf-8">
-  <title>Log In</title>
-  <meta content="Log In" property="og:title">
-  <meta content="Log In" property="twitter:title">
+  <title>select-site</title>
+  <meta content="select-site" property="og:title">
+  <meta content="select-site" property="twitter:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -19,12 +19,15 @@
   <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
 </head>
-<body class="body-5">
+<body>
   <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navigation w-nav">
     <div class="nav-container">
       <a href="#" class="brand w-nav-brand"><img src="images/Vectors-Wrapper_3.svg" loading="lazy" width="42" height="42" alt="" class="vectors-wrapper-9"></a>
       <nav role="navigation" class="nav-menu w-nav-menu">
-        <a href="index.html" aria-current="page" class="nav-link w-nav-link w--current">Full Site</a>
+        <a href="index.html" class="nav-link w-nav-link">Full Site</a>
+        <a href="#" class="nav-button w-nav-link">
+          <div class="text-4">Log Out</div>
+        </a>
       </nav>
       <div class="menu-button w-nav-button">
         <div class="icon w-icon-nav-menu"></div>
@@ -33,17 +36,58 @@
   </div>
   <section class="content-section user-account wf-section">
     <div class="columns-2 w-row">
-      <div class="info-column w-col w-col-4">
-        <div class="medium-28">Welcome back. Log in to manage your site.</div>
+      <div class="info-column dashboard w-col w-col-4">
+        <div class="frame-299">
+          <div class="medium-28 dashboard">yourwebsite.com</div>
+          <div class="image-wrapper-2">
+            <div class="image-4">
+              <div class="frame-131">
+                <div class="text-24">You can preview your site here once it has been developed</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="actions-column w-col w-col-8">
-        <div class="actions-frame">
-          <div class="small-heading create-account">Log In</div>
-          <div class="login-frame">
-            <div class="form-wrapper w-form">
-              <form id="webflow-form" name="webflow-form" data-name="Webflow Form" method="get" class="form">
-                <div class="input-wrapper"><label for="name-3" class="input-label">Email</label><input type="text" class="text-field w-input" maxlength="256" name="name-2" data-name="Name 2" placeholder="me@company.com" id="name-2"></div>
-                <div class="input-wrapper"><label for="name-2" class="input-label">Password</label><input type="password" class="text-field w-input" maxlength="256" name="name-2" data-name="Name 2" placeholder="********" id="name-2"></div>
+        <div class="content-div account-controls">
+          <div class="progress-status">
+            <div class="heading-text-2">Progress</div>
+            <div class="frame-123">
+              <div class="frame-118">
+                <div class="frame-121"><img src="images/Vectors-Wrapper_4.svg" loading="lazy" width="50" height="50" alt="" class="vectors-wrapper-11"></div>
+                <div class="text-25">DOWN PAYMENT</div>
+              </div>
+              <div class="frame-119"><img src="images/Vectors-Wrapper_2.svg" loading="lazy" width="25" height="25" alt="" class="vectors-wrapper-8">
+                <div class="text-26">DEVELOPING</div>
+              </div>
+              <div class="frame-119"><img src="images/Vectors-Wrapper_6.svg" loading="lazy" width="25" height="25" alt="" class="vectors-wrapper-8">
+                <div class="text-26">PUBLishing</div>
+              </div>
+            </div>
+          </div>
+          <div class="payment-box">
+            <div class="medium-24">Please complete the down payment to proceed</div>
+            <div class="form-block w-form">
+              <form id="email-form" name="email-form" data-name="Email Form" method="get" class="payment-collection">
+                <div class="payment-inputs">
+                  <div class="name-and-card">
+                    <div class="payment-field-div"><label for="name" class="field-label">Full Name</label><input type="text" class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="Your Full Name" id="name"></div>
+                    <div class="payment-field-div"><label for="name-4" class="field-label">Credit Card Number</label><input type="text" class="text-field w-input" maxlength="256" name="name-4" data-name="Name 4" placeholder="1234 1234 1234 1234" id="name-4"></div>
+                  </div>
+                  <div class="zip-expcvv">
+                    <div class="exp-cvv">
+                      <div class="payment-field-div"><label for="name-4" class="field-label">Exp Date</label><input type="text" class="text-field w-input" maxlength="256" name="name-4" data-name="Name 4" placeholder="MM/YY" id="name-4"></div>
+                      <div class="payment-field-div"><label for="element" class="field-label">CVV</label><input type="text" class="text-field w-input" maxlength="256" name="123" data-name="123" placeholder="MM/YY" id="element"></div>
+                    </div>
+                    <div class="payment-field-div"><label for="element" class="field-label">Zip Code</label><input type="text" class="text-field w-input" maxlength="256" name="123" data-name="123" placeholder="01234" id="element"></div>
+                  </div>
+                </div>
+                <div class="total-and-button">
+                  <div class="medium-28 total"><strong>Total: $50.00</strong></div>
+                  <a href="#" class="button">
+                    <div class="text-28">PAY NOW</div>
+                  </a>
+                </div>
               </form>
               <div class="w-form-done">
                 <div>Thank you! Your submission has been received!</div>
@@ -52,19 +96,8 @@
                 <div>Oops! Something went wrong while submitting the form.</div>
               </div>
             </div>
-            <a href="#" class="button">
-              <div class="text-20">LOG IN</div>
-            </a>
-            <div class="text-21">-OR-</div>
-            <div class="frame-294"><img src="images/Vectors-Wrapper.svg" loading="lazy" width="338.1527404785156" height="53.80409622192383" alt="" class="vectors-wrapper-6"></div>
-            <div class="have-account-div">
-              <div class="medium-18">Don&#x27;t have an account? </div>
-              <div class="medium-18">
-                <a href="sign-up.html" class="link-2">Get Started</a>
-              </div>
-            </div>
-            <div class="text-22">Privacy | Terms &amp; Condition</div>
           </div>
+          <div class="user-controls"></div>
         </div>
       </div>
     </div>
@@ -73,21 +106,21 @@
     <div class="footer-container">
       <div class="footer-wrapper">
         <div class="footer-content">
-          <div id="w-node-_3fa85b3f-05bd-08a2-9917-4614c1ed1857-8f4aa2fc" class="footer-block">
+          <div id="w-node-_2b9abff4-e6f3-b37b-7c5f-5d8a21e50cc5-8f4aa2ff" class="footer-block">
             <div class="footer-title">Phone</div>
             <div class="link">(617) 221 - 9714</div>
           </div>
-          <div id="w-node-_3fa85b3f-05bd-08a2-9917-4614c1ed185c-8f4aa2fc" class="footer-block">
+          <div id="w-node-_2b9abff4-e6f3-b37b-7c5f-5d8a21e50cca-8f4aa2ff" class="footer-block">
             <div class="footer-title">Email</div>
             <div class="link">chris@caffdesign.com</div>
           </div>
-          <div id="w-node-_3fa85b3f-05bd-08a2-9917-4614c1ed1861-8f4aa2fc" class="footer-block">
+          <div id="w-node-_2b9abff4-e6f3-b37b-7c5f-5d8a21e50ccf-8f4aa2ff" class="footer-block">
             <div class="footer-title">Linkedin</div>
             <a href="https://www.linkedin.com/company/caffdesign/" target="_blank" class="w-inline-block">
               <div class="link">https://www.linkedin.com/company/caffdesign/</div>
             </a>
           </div>
-          <div id="w-node-_3fa85b3f-05bd-08a2-9917-4614c1ed1867-8f4aa2fc" class="footer-block">
+          <div id="w-node-_2b9abff4-e6f3-b37b-7c5f-5d8a21e50cd5-8f4aa2ff" class="footer-block">
             <div class="footer-title">About</div>
             <div class="link">* Terms and Conditions</div>
             <div class="link">Privacy Policy</div>

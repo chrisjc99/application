@@ -593,12 +593,13 @@
   grid-row-gap: 8.78px;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   display: flex;
 }
 
 .form {
   width: 100%;
+  max-width: 750px;
   grid-column-gap: 14.048px;
   grid-row-gap: 14.048px;
   flex-direction: column;
